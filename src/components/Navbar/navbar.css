@@ -1,0 +1,146 @@
+.Nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 74px;
+}
+
+.HContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    height: 60px;
+} 
+
+.HTitle {
+    display: flex;
+    width: 75%;
+    height: 60px;
+    background-color: black;
+    flex-direction: row;
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 150px;
+
+}
+.T1 {
+    color: rgba(33, 179, 211, 1);
+    position: absolute;
+    width: 80px;
+    height: 10px;
+    left: 10px;
+    top: 6px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.DLogo {
+    position: absolute;
+    width: 134px;
+    height: 34px;
+    left: 10px;
+    top: 15px;
+    background: url(../../Picture/logo.png);
+}
+.notifcation{
+    height: 100%;
+    width: 1OOpx;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Groupe {
+    width: 56px;
+    height: 31px;
+    background-color: #21B3D3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.counter {
+    margin-left: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+.NoLogo {
+    width: 20px;
+    height: 12px;
+    margin-left: 5px;
+    background: url(../../Picture/Group.png);
+}
+
+.Hmenu {
+    display: flex;
+    width: 25%;
+    height: 60px;
+    background-color: #282929;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.HAvatar {
+    /* background-color: gray; */
+    border-radius: 50%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    width: 32px;
+    height: 32px;
+}
+.Hname {
+    text-align: center;
+    margin-left: 10px;
+    color: #FFFFFF;
+}
+@media (max-width: 800px) {
+    .Hname {
+        text-align: center;
+        padding: 12;
+        display: none;
+    
+    } 
+}
+
+.SubH {
+    display: flex;
+    width: 100%;
+    height: 14px;
+    background-color: rgba(33, 179, 211, 1);
+}
+.Subh, p{
+    position: absolute;
+    width: 150px;
+    height: 10px;
+    left: 10px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFFFFF;
+    margin: 0;
+}

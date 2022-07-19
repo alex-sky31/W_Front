@@ -1,0 +1,71 @@
+.MailBody{
+    display: flex;
+    width: 95%;
+    height: auto;
+    margin: 10px;
+    background: white;
+    border: 1px solid #E3E3E3;
+    border-radius: 3px;
+    flex-direction: column;
+}
+
+.MailContact{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 95px;
+}
+
+.TypeH {
+    display: flex;
+}
+
+.LogoH {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 14.84px;
+}
+
+.LogoPH {
+    margin-left: 10px;
+    margin-top: 10px;
+
+        width: 17px;
+        height: 17px;
+}
+.Mailheader{
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+}
+.FromH {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 10px;
+    }
+
+.MailTitleH{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height */
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+    color: #000000;
+}
+
+.ContentMail {
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+}
